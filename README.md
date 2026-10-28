@@ -63,9 +63,9 @@ Browser → frontend (Nginx :80) → backend (Flask :5000) → postgres (Postgre
 |---|---|---|
 | 1 | מה זה DevOps, מיקרו-סרוויסים והכרת ShopList | [01-devops-intro](lessons/01-devops-intro/) |
 | 2 | Docker: images, containers ו-Dockerfile | [02-docker-basics](lessons/02-docker-basics/) |
-| 3 | Nginx, Docker Compose ושמירת נתונים | [03-docker-compose](lessons/03-docker-compose/) |
-| 4 | Kubernetes: מושגים, cluster ו-kubectl | יעלה בהמשך |
-| 5 | Kubernetes: Secret, ConfigMap, PVC והפעלת ShopList | יעלה בהמשך |
+| 3 | רשתות, volumes ו-multi-stage: מושגים, והיכרות עם Compose | [03-docker-compose](lessons/03-docker-compose/) |
+| 4 | רשתות, volumes ו-Docker Compose לעומק: בונים את ShopList | יעלה בהמשך |
+| 5 | Kubernetes: מה זה cluster, ו-cluster מקומי | יעלה בהמשך |
 | 6 | Helm | יעלה בהמשך |
 | 7 | CI/CD: מושגים וכתיבת pipeline | יעלה בהמשך |
 | 8 | Registry, חיבור ל-Kubernetes ו-GitHub Actions | יעלה בהמשך |
@@ -91,8 +91,8 @@ lessons/      חומר הלימוד לפי שיעור
 | שיעור | מה כותבות |
 |---|---|
 | 2 | `Dockerfile` ל-backend ול-stats |
-| 3 | `Dockerfile` ו-`nginx.conf` ל-frontend, `docker/init.sql` ו-`docker/docker-compose.yml` |
-| 4–5 | מניפסטים של Kubernetes בתיקייה `kubernetes/` |
+| 4 | `Dockerfile` ו-`nginx.conf` ל-frontend, `docker/init.sql` ו-`docker/docker-compose.yml`, ובשיעורי הבית `Dockerfile.multistage` |
+| 6 | מניפסטים של Kubernetes בתיקייה `kubernetes/` |
 | 6 | Helm chart בתיקייה `helm/` |
 | 7–8 | pipelines: `.gitlab-ci.yml` ו-`.github/workflows/` |
 | 9–10 | `terraform/` ו-`ansible/` |
